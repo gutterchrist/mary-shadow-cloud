@@ -34,6 +34,21 @@ sudo dfu-util -d 2b04:d008 -a 0 -s 0x80A0000:leave -D openmary_surgical.bin
 
 ---
 
+## 🏗 Project Status: Experimental Alpha
+**Please Note:** This is a passion project I work on in my spare time. While we have made incredible progress in bypassing the cloud and gaining local control, **not all functions are fully operational yet.** 
+
+Some features (like the primary Grow Lights) are currently in a "tug-of-war" with the machine's internal firmware watchdogs. This repository is shared as-is to encourage community collaboration—if you are a firmware or reverse-engineering enthusiast, your help is welcome!
+
+---
+
+## 💖 Support the Project
+If this project helps you save your Mary box from becoming a paperweight and you'd like to support its continued development:
+
+*   **Contribute Code:** Submit a Pull Request if you find a fix for the watchdog or sensor issues.
+*   **Donations:** [Insert your Buy Me a Coffee / PayPal / Ko-fi link here]
+
+---
+
 ## 📋 Prerequisites
 Before you start, ensure you have the following installed:
 *   **Node.js (v16+)** & **npm**
