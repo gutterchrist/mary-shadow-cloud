@@ -45,7 +45,7 @@ Some features (like the primary Grow Lights) are currently in a "tug-of-war" wit
 If this project helps you save your Mary box from becoming a paperweight and you'd like to support its continued development:
 
 *   **Contribute Code:** Submit a Pull Request if you find a fix for the watchdog or sensor issues.
-*   **Donations:** [Insert your Buy Me a Coffee / PayPal / Ko-fi link here]
+*   **Sponsor:** [Support this project via GitHub Sponsors](https://github.com/sponsors/gutterchrist) ❤️
 
 ---
 
