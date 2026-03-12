@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=StillGrowing
+Comment=Control your Mary AG box locally
+Exec=sh -c "cd $(dirname %k) && ./Click_To_Run_Linux.sh"
+Icon=utilities-terminal
+Terminal=true
+Categories=Utility;

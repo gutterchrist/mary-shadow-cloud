@@ -1,0 +1,37 @@
+{
+  "user": {
+    "uid": "shadow-user",
+    "settings": {
+      "unitSystem": "Metric"
+    }
+  },
+  "devices": [
+    {
+      "id": "YOUR_PARTICLE_DEVICE_ID",
+      "name": "My Mary Box",
+      "access_token": "YOUR_PARTICLE_ACCESS_TOKEN"
+    }
+  ],
+  "automation": {
+    "enabled": true,
+    "thermostatEnabled": false,
+    "targetTemp": 24,
+    "mode": "manual",
+    "manualPhase": "veg",
+    "startTime": "06:00",
+    "recipeStartDate": 1738782000000,
+    "recipe": [
+      { "name": "Seedling Stage", "phase": "seedling", "days": 14 },
+      { "name": "Vegetative Stage", "phase": "veg", "days": 28 },
+      { "name": "Flowering Stage", "phase": "flower", "days": 56 },
+      { "name": "Drying", "phase": "drying", "days": 7 }
+    ],
+    "phases": {
+      "seedling": { "lightHours": 16, "spectrum": "255", "intensity": 40, "air": 100 },
+      "veg": { "lightHours": 18, "spectrum": "255", "intensity": 80, "air": 100 },
+      "flower": { "lightHours": 12, "spectrum": "127", "intensity": 100, "air": 100 },
+      "drying": { "lightHours": 0, "spectrum": "0", "intensity": 0, "air": 50 }
+    }
+  },
+  "journal": []
+}
