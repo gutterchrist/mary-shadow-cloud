@@ -44,16 +44,30 @@ Before you start, ensure you have the following installed:
 ---
 
 ## 🚀 Quick Start
-If you are ready to unlock your box immediately, use our automated setup script:
-```bash
-cd mary-shadow-cloud
-chmod +x StillGrowing_Setup.sh
-./StillGrowing_Setup.sh
-```
-This script will:
-1.  Flash the unlocked firmware to your Mary Box via USB.
-2.  Guide you through connecting the box to your local Wi-Fi.
-3.  Launch the Shadow Cloud dashboard on port **3007**.
+If you are ready to unlock your box immediately, follow these steps:
+
+1.  **Clone and Install:**
+    ```bash
+    git clone https://github.com/gutterchrist/mary-shadow-cloud.git
+    cd mary-shadow-cloud
+    npm install
+    ```
+2.  **Configuration:**
+    Copy the example configuration and add your own Device ID and Access Token (obtained from the [Particle Console](https://console.particle.io)):
+    ```bash
+    cp data.example.json data.json
+    # Edit data.json with your specific Particle credentials
+    ```
+3.  **Flash and Run:**
+    Use our automated setup script (requires USB connection and DFU mode):
+    ```bash
+    chmod +x StillGrowing_Setup.sh
+    ./StillGrowing_Setup.sh
+    ```
+    This script will:
+    *   Flash the unlocked firmware to your Mary Box.
+    *   Guide you through Wi-Fi connection.
+    *   Launch the Shadow Cloud dashboard on port **3007**.
 
 ---
 
